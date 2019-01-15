@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="DAT-1500-Oracle-SingleSchema" storedLogicExternal="true" deployThreshold="stopOnError" runtimeCredentials="false" multiSchema="false" dbSchemaDefinition="dbDef" enableRowCount="disabled">
+  <dbDefs xsi:type="dbproject:OracleDbDef" name="oracle_db_def" driver="oracle.jdbc.OracleDriver" hostname="10.0.2.15" port="1521" username="intuser" password="aW50dXNlcjcz" serviceName="orcl" enableCompression="false" rowsPerBatch="10000" useWallet="false"/>
+  <plans name="pipeline1" databaseDefs="//@dbDefs[name='oracle_db_def']"/>
+  <changelog href="Changelog/changelog.xml#//@databaseChangeLog"/>
+</dbproject:Project>
