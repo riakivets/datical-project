@@ -1,0 +1,57 @@
+SQL> 
+SQL> set define off
+SQL> 
+SQL> SET SQLBLANKLINES ON
+SQL> 
+SQL> SET ERRORLOGGING ON
+SQL> 
+SQL> SET ERRORLOGGING ON IDENTIFIER '011adad7-c4d9-47eb-9ee9-f672703e9cf3'
+SQL> set linesize 1000;
+SQL> SELECT sys_context('userenv','server_host') as DATICAL_TRACEFILE_HOSTNAME from dual;
+
+DATICAL_TRACEFILE_HOSTNAME                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+testuser1-pc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+SQL> alter session set timed_statistics = true;
+
+Session altered.
+
+SQL> alter session set tracefile_identifier =  '20190116132138340';
+
+Session altered.
+
+SQL> alter session set max_dump_file_size = unlimited;
+
+Session altered.
+
+SQL> alter session set events '10046 trace name context forever, level 1';
+
+Session altered.
+
+SQL> SELECT value as DATICAL_TRACE_FILE FROM v$diag_info WHERE name = 'Default Trace File';
+
+DATICAL_TRACE_FILE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+c:\app\testuser1\diag\rdbms\orcl\orcl\trace\orcl_ora_2136_20190116132138340.trc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+SQL> ALTER SESSION SET CURRENT_SCHEMA = intuser;
+
+Session altered.
+
+SQL> ALTER SESSION SET CURSOR_SHARING = EXACT;
+
+Session altered.
+
+SQL> CREATE TABLE "INTUSER"."table_t1_16_01_2019_1_19" ("COLUMN1_someName" INTEGER, "yyyyyy_COLUMN2" INTEGER);
+
+Table created.
+
+SQL> alter session set events '10046 trace name context off';
+
+Session altered.
+
+SQL> 
+SQL> set define on
+SQL> 
+SQL> spool off

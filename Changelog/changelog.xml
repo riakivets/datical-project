@@ -6,4 +6,10 @@
             <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="349f5c74468d907d2acced6bf0466e65" author="riaki (generated)" created="2019-01-16 13:21+0200" datical:origFileName="table_t1_16_01_2019_1_19.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="j5w8-1 (createTable tableName=table_t1_16_01_2019_1_19)" labels="table_t1_16_01_2019_1_19.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="table_t1_16_01_2019_1_19">
+            <column name="COLUMN1_someName" type="NUMBER(*, 0)"/>
+            <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
