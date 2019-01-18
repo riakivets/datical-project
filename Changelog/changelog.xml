@@ -1,9 +1,4 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd http://www.datical.net/xml/ns/storedlogic http://www.datical.net/xml/ns/storedlogic-1.0.xsd http://www.datical.net/xml/ns/appdba http://www.datical.net/xml/ns/appdba-1.0.xsd">
-    <changeSet appdba:scriptChecksum="55bae2994e6ef638db0305a86cccc40e" author="riaki (generated)" created="2019-01-17 12:12+0200" datical:origFileName="table_t1_17_01_2019_12_11.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="iiem-1 (createTable tableName=table_t1_17_01_2019_12_11)" labels="table_t1_17_01_2019_12_11.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
-        <createTable tableName="table_t1_17_01_2019_12_11">
-            <column name="COLUMN1_someName" type="NUMBER(*, 0)"/>
-            <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
-        </createTable>
-    </changeSet>
+
 </databaseChangeLog>
