@@ -5,4 +5,12 @@
         <comment>Added function_1_18_2019_4_34
 </comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="121de312e6f001e012f6a91b0408f3be" author="Roman Iakivets" created="2019-01-18 17:08+0200" datical:origFileName="function_1_18_2019_4_52.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190118170845660_function_1_18_2019_4_52" labels="function_1_18_2019_4_52.sql">
+        <storedlogic:createFunction functionName="function_1_18_2019_4_34" path="function/20190118170845660_function_1_18_2019_4_52.sql"/>
+        <comment>func
+</comment>
+    </changeSet>
+    <changeSet author="Roman Iakivets" created="2019-01-18 17:08+0200" datical:origFileName="function_1_18_2019_4_34.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190118170849_function_1_18_2019_4_34" labels="function_1_18_2019_4_34.sql">
+        <storedlogic:dropFunction functionName="function_1_18_2019_4_34"/>
+    </changeSet>
 </databaseChangeLog>
