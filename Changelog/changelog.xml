@@ -39,4 +39,12 @@
         <comment>Added procedure-renamed2.sql
 </comment>
     </changeSet>
+    <changeSet author="Roman Iakivets" created="2019-01-25 17:04+0200" datical:origFileName="function_1_24_2019_4_47-renamed2.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190125170443_function_1_24_2019_4_47-renamed2" labels="function_1_24_2019_4_47-renamed3.sql">
+        <storedlogic:dropFunction functionName="function_1_24_2019_4_47"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-25 17:04+0200" datical:origFileName="function_1_24_2019_4_47-renamed3.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125170437197_function_1_24_2019_4_47-renamed3" labels="function_1_24_2019_4_47-renamed3.sql">
+        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/20190125170437197_function_1_24_2019_4_47-renamed3.sql"/>
+        <comment>asdf
+</comment>
+    </changeSet>
 </databaseChangeLog>
