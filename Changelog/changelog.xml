@@ -26,4 +26,9 @@
         <comment>rename2
 </comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="50060f30bd98450cab79e6ed72cb368f" author="Roman Iakivets" created="2019-01-25 15:22+0200" datical:origFileName="procedure-renamed.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125152157877_procedure-renamed" labels="procedure-renamed.sql">
+        <createProcedure path="procedure/20190125152157877_procedure-renamed.sql" procedureName="PROC_HELLO_WORLD"/>
+        <comment>Added procedure-renamed.sql
+</comment>
+    </changeSet>
 </databaseChangeLog>
