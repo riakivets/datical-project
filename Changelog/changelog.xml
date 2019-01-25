@@ -31,4 +31,12 @@
         <comment>Added procedure-renamed.sql
 </comment>
     </changeSet>
+    <changeSet author="Roman Iakivets" created="2019-01-25 15:30+0200" datical:origFileName="procedure-renamed.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190125152739_procedure-renamed" labels="procedure-renamed2.sql">
+        <dropProcedure procedureName="PROC_HELLO_WORLD"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="50060f30bd98450cab79e6ed72cb368f" author="Roman Iakivets" created="2019-01-25 15:27+0200" datical:origFileName="procedure-renamed2.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125152722315_procedure-renamed2" labels="procedure-renamed2.sql">
+        <createProcedure path="procedure/20190125152722315_procedure-renamed2.sql" procedureName="PROC_HELLO_WORLD"/>
+        <comment>Added procedure-renamed2.sql
+</comment>
+    </changeSet>
 </databaseChangeLog>
