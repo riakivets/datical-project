@@ -18,4 +18,12 @@
         <comment>function_1_24_2019_4_47-renamed.sql
 </comment>
     </changeSet>
+    <changeSet author="Roman Iakivets" created="2019-01-25 14:33+0200" datical:origFileName="function_1_24_2019_4_47-renamed.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190125143327_function_1_24_2019_4_47-renamed" labels="function_1_24_2019_4_47-renamed2.sql">
+        <storedlogic:dropFunction functionName="function_1_24_2019_4_47"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-25 14:33+0200" datical:origFileName="function_1_24_2019_4_47-renamed2.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2019012514331947_function_1_24_2019_4_47-renamed2" labels="function_1_24_2019_4_47-renamed2.sql">
+        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/2019012514331947_function_1_24_2019_4_47-renamed2.sql"/>
+        <comment>rename2
+</comment>
+    </changeSet>
 </databaseChangeLog>
