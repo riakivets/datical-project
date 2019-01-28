@@ -47,4 +47,17 @@
         <comment>asdf
 </comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-28 15:50+0200" datical:origFileName="function_1_24_2019_4_47-renamed6.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190128155018891_function_1_24_2019_4_47-renamed6" labels="function_1_24_2019_4_47-renamed6.sql">
+        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/20190128155018891_function_1_24_2019_4_47-renamed6.sql"/>
+        <comment>asdf
+</comment>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="8a518924e5630392c360379c8339c9d2" author="riaki (generated)" created="2019-01-28 15:51+0200" datical:origFileName="ttt2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="5soy-1 (createTable tableName=ttt9999991)" labels="ttt2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="ttt9999991">
+            <column name="COLUMN1" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="Roman Iakivets" created="2019-01-28 15:51+0200" datical:origFileName="function_1_24_2019_4_47-renamed3.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190128155128_function_1_24_2019_4_47-renamed3" labels="function_1_24_2019_4_47-renamed3.sql">
+        <storedlogic:dropFunction functionName="function_1_24_2019_4_47"/>
+    </changeSet>
 </databaseChangeLog>
