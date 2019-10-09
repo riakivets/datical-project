@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Rules/PreForecast"/>
+	<classpathentry kind="src" path="Rules/Forecast"/>
+	<classpathentry kind="src" path="Rules/PostForecast"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/DaticalUserLibrary"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

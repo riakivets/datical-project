@@ -1,0 +1,1 @@
+create view t1001_view as select * from t1001

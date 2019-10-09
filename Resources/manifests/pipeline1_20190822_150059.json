@@ -1,0 +1,12 @@
+[ {
+  "author" : "riaki",
+  "comment" : "",
+  "labels" : "",
+  "contexts" : "",
+  "files" : [ {
+    "filename" : "C:\\Users\\riaki\\datical\\table_t1_22_08_2019_16_00.sql",
+    "rollbackFile" : null,
+    "type" : "ddl",
+    "action" : null
+  } ]
+} ]

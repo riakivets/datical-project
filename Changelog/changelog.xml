@@ -1,63 +1,169 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
-<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd http://www.datical.net/xml/ns/storedlogic http://www.datical.net/xml/ns/storedlogic-1.0.xsd http://www.datical.net/xml/ns/appdba http://www.datical.net/xml/ns/appdba-1.0.xsd">
-    <changeSet appdba:scriptChecksum="121de312e6f001e012f6a91b0408f3be" author="Roman Iakivets" created="2019-01-18 16:48+0200" datical:origFileName="function_1_18_2019_4_34.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190118164831964_function_1_18_2019_4_34" labels="function_1_18_2019_4_34.sql">
-        <storedlogic:createFunction functionName="function_1_18_2019_4_34" path="function/20190118164831964_function_1_18_2019_4_34.sql"/>
-        <comment>Added function_1_18_2019_4_34
-</comment>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="121de312e6f001e012f6a91b0408f3be" author="Roman Iakivets" created="2019-01-18 17:08+0200" datical:origFileName="function_1_18_2019_4_52.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190118170845660_function_1_18_2019_4_52" labels="function_1_18_2019_4_52.sql">
-        <storedlogic:createFunction functionName="function_1_18_2019_4_34" path="function/20190118170845660_function_1_18_2019_4_52.sql"/>
-        <comment>func
-</comment>
-    </changeSet>
-    <changeSet author="Roman Iakivets" created="2019-01-18 17:08+0200" datical:origFileName="function_1_18_2019_4_34.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190118170849_function_1_18_2019_4_34" labels="function_1_18_2019_4_34.sql">
-        <storedlogic:dropFunction functionName="function_1_18_2019_4_34"/>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-25 14:26+0200" datical:origFileName="function_1_24_2019_4_47-renamed.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125142558807_function_1_24_2019_4_47-renamed" labels="function_1_24_2019_4_47-renamed.sql">
-        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/20190125142558807_function_1_24_2019_4_47-renamed.sql"/>
-        <comment>function_1_24_2019_4_47-renamed.sql
-</comment>
-    </changeSet>
-    <changeSet author="Roman Iakivets" created="2019-01-25 14:33+0200" datical:origFileName="function_1_24_2019_4_47-renamed.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190125143327_function_1_24_2019_4_47-renamed" labels="function_1_24_2019_4_47-renamed2.sql">
-        <storedlogic:dropFunction functionName="function_1_24_2019_4_47"/>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-25 14:33+0200" datical:origFileName="function_1_24_2019_4_47-renamed2.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2019012514331947_function_1_24_2019_4_47-renamed2" labels="function_1_24_2019_4_47-renamed2.sql">
-        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/2019012514331947_function_1_24_2019_4_47-renamed2.sql"/>
-        <comment>rename2
-</comment>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="50060f30bd98450cab79e6ed72cb368f" author="Roman Iakivets" created="2019-01-25 15:22+0200" datical:origFileName="procedure-renamed.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125152157877_procedure-renamed" labels="procedure-renamed.sql">
-        <createProcedure path="procedure/20190125152157877_procedure-renamed.sql" procedureName="PROC_HELLO_WORLD"/>
-        <comment>Added procedure-renamed.sql
-</comment>
-    </changeSet>
-    <changeSet author="Roman Iakivets" created="2019-01-25 15:30+0200" datical:origFileName="procedure-renamed.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190125152739_procedure-renamed" labels="procedure-renamed2.sql">
-        <dropProcedure procedureName="PROC_HELLO_WORLD"/>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="50060f30bd98450cab79e6ed72cb368f" author="Roman Iakivets" created="2019-01-25 15:27+0200" datical:origFileName="procedure-renamed2.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125152722315_procedure-renamed2" labels="procedure-renamed2.sql">
-        <createProcedure path="procedure/20190125152722315_procedure-renamed2.sql" procedureName="PROC_HELLO_WORLD"/>
-        <comment>Added procedure-renamed2.sql
-</comment>
-    </changeSet>
-    <changeSet author="Roman Iakivets" created="2019-01-25 17:04+0200" datical:origFileName="function_1_24_2019_4_47-renamed2.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190125170443_function_1_24_2019_4_47-renamed2" labels="function_1_24_2019_4_47-renamed3.sql">
-        <storedlogic:dropFunction functionName="function_1_24_2019_4_47"/>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-25 17:04+0200" datical:origFileName="function_1_24_2019_4_47-renamed3.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190125170437197_function_1_24_2019_4_47-renamed3" labels="function_1_24_2019_4_47-renamed3.sql">
-        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/20190125170437197_function_1_24_2019_4_47-renamed3.sql"/>
-        <comment>asdf
-</comment>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="5f4068cc61d743d7f1398cbd91707697" author="Roman Iakivets" created="2019-01-28 15:50+0200" datical:origFileName="function_1_24_2019_4_47-renamed6.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20190128155018891_function_1_24_2019_4_47-renamed6" labels="function_1_24_2019_4_47-renamed6.sql">
-        <storedlogic:createFunction functionName="function_1_24_2019_4_47" path="function/20190128155018891_function_1_24_2019_4_47-renamed6.sql"/>
-        <comment>asdf
-</comment>
-    </changeSet>
-    <changeSet appdba:scriptChecksum="8a518924e5630392c360379c8339c9d2" author="riaki (generated)" created="2019-01-28 15:51+0200" datical:origFileName="ttt2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="5soy-1 (createTable tableName=ttt9999991)" labels="ttt2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
-        <createTable tableName="ttt9999991">
-            <column name="COLUMN1" type="NUMBER(*, 0)"/>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" datical:lastEdited="2019-10-09T10:12:18.345Z" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="riakivets" created="Thu Aug 01 13:40:53 EEST 2019" id="100">
+        <createTable tableName="t1001">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="true" unique="false"/>
+            </column>
+            <column name="COLUMN2" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
         </createTable>
     </changeSet>
-    <changeSet author="Roman Iakivets" created="2019-01-28 15:51+0200" datical:origFileName="function_1_24_2019_4_47-renamed3.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="2" datical:versionStrategy="DEPLOY_ALL" id="20190128155128_function_1_24_2019_4_47-renamed3" labels="function_1_24_2019_4_47-renamed3.sql">
-        <storedlogic:dropFunction functionName="function_1_24_2019_4_47"/>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="101">
+        <createTable tableName="t1002">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Mon Aug 12 16:02:31 EEST 2019" id="102">
+        <createTable tableName="t1003">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="true" unique="false"/>
+            </column>
+            <column name="COLUMN2" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Mon Aug 12 16:02:31 EEST 2019" id="105">
+        <createTable tableName="t1005">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="true" unique="false"/>
+            </column>
+            <column name="COLUMN2" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivetgs" created="Tue Oct 01 12:14:10 EEST 2019" id="10050-0">
+        <addColumn tableName="t1005">
+            <column name="column100500" type="int">
+                <constraints unique="true"/>
+            </column>
+        </addColumn>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Oct 03 11:49:31 EEST 2019" id="7">
+        <createView fullDefinition="true" path="view/t1001_view.sql" viewName="t1001_view"/>
+    </changeSet>
+    <changeSet author="riakviets" created="Thu Oct 03 11:53:06 EEST 2019" id="8">
+        <dropTable tableName="t1001"/>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 13:40:53 EEST 2019" id="10">
+        <createTable tableName="t1001">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="true" unique="false"/>
+            </column>
+            <column name="COLUMN2" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakviets" created="Thu Oct 03 11:53:06 EEST 2019" id="11">
+        <dropTable tableName="t1001"/>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 13:40:53 EEST 2019" id="20">
+        <createTable tableName="t1001">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="true" unique="false"/>
+            </column>
+            <column name="COLUMN2" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakviets" created="Thu Oct 03 11:53:06 EEST 2019" id="30">
+        <dropTable tableName="t1001111111111"/>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="5e5d59cd2475d8aab02450dd4c98404f" author="riaki (generated)" created="2019-10-03 15:12+0300" datical:origFileName="table_t1_10_03_2019_14_44.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="u177-1 (createTable tableName=table_t1_10_03_2019_14_44)" labels="l1, table_t1_10_03_2019_14_44.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="table_t1_10_03_2019_14_44">
+            <column name="COLUMN1_someName" type="NUMBER(*, 0)"/>
+            <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="c1914e8881efd687ba5790fd87284a74" author="riaki (generated)" created="2019-10-03 15:34+0300" datical:origFileName="table_t1_10_03_2019_15_44.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="lte0-1 (createTable tableName=table_t1_10_03_2019_15_44)" labels="l1, table_t1_10_03_2019_15_44.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="table_t1_10_03_2019_15_44">
+            <column name="COLUMN1_someName" type="NUMBER(*, 0)"/>
+            <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="2c625512fcef708061ccbe62633419ed" author="riaki (generated)" created="2019-10-03 15:52+0300" datical:origFileName="drop_table_T1001.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="9hkb-1 (dropTable tableName=T1001)" labels="l1, drop_table_t1001.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <dropTable tableName="T1001"/>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="104">
+        <createTable tableName="t10044">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="1055">
+        <createTable tableName="t10055">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="1077">
+        <createTable tableName="t10077">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="1088">
+        <createTable tableName="t10088">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="1099">
+        <createTable tableName="t10099">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="riakivets" created="Thu Aug 01 14:15:10 EEST 2019  " id="1010">
+        <createTable tableName="t1010">
+            <column name="COLUMN1" type="int">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+            <column name="COLUMN300" type="TEXT">
+                <constraints nullable="true" primaryKey="false" unique="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="db448ba80f1aae362d96cd92937affc5" author="riaki (generated)" created="2019-10-09 12:58+0300" datical:origFileName="table_t1_10_09_2019_12_55.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="omp6-1 (createTable tableName=table_t1_10_09_2019_12_55)" labels="l1, table_t1_10_09_2019_12_55.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="table_t1_10_09_2019_12_55">
+            <column name="COLUMN1_someName" type="NUMBER(*, 0)"/>
+            <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="53d1bbf8c56eef11b44c54c7b3135154" author="riaki (generated)" created="2019-10-09 13:12+0300" datical:origFileName="table_t1_10_09_2019_13_10.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="6cne-1 (createTable tableName=table_t1_10_09_2019_13_10)" labels="l1, table_t1_10_09_2019_13_10.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="table_t1_10_09_2019_13_10">
+            <column name="COLUMN1_someName" type="NUMBER(*, 0)"/>
+            <column name="yyyyyy_COLUMN2" type="NUMBER(*, 0)"/>
+        </createTable>
     </changeSet>
 </databaseChangeLog>
