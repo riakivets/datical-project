@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
-<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" datical:lastEdited="2020-03-16T11:20:03.880Z" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" datical:lastEdited="2020-03-16T17:28:57.578Z" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
     <changeSet author="riakivets" created="Thu Aug 01 13:40:53 EEST 2019" id="100">
         <createTable tableName="t1001">
             <column name="COLUMN1" type="int">
@@ -210,5 +210,13 @@
     <changeSet appdba:scriptChecksum="ca711c49f851a89d8ee6738c00958b7a" author="Roman Iakivets" created="2020-03-16 13:20+0200" datical:origFileName="func31324.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20200316131957463_func31324" labels="l1,func31324.sql">
         <storedlogic:createFunction functionName="func1" path="function/20200316131957463_func31324.sql" schemaName="intuser"/>
         <comment>func31324.sql</comment>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="ca711c49f851a89d8ee6738c00958b7a" author="Roman Iakivets" created="2020-03-16 19:28+0200" datical:origFileName="func31325.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="0" datical:versionStrategy="DEPLOY_ALL" id="20200316192847501_func31325-v0" ignore="true" labels="l1,func31325.sql">
+        <storedlogic:createFunction functionName="func1" path="function/20200316192847501_func31325-v0.sql" schemaName="intuser"/>
+        <comment>func31325.sql</comment>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="ca711c49f851a89d8ee6738c00958b7a" author="Roman Iakivets" created="2020-03-16 19:28+0200" datical:origFileName="func31325.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20200316192847501_func31325" labels="l1,func31325.sql">
+        <storedlogic:createFunction functionName="func1" path="function/20200316192847501_func31325.sql" schemaName="intuser"/>
+        <comment>func31325.sql</comment>
     </changeSet>
 </databaseChangeLog>
