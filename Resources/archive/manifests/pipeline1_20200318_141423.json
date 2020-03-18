@@ -1,0 +1,12 @@
+[ {
+  "author" : "riakitttttttttttt",
+  "comment" : "",
+  "labels" : "l1",
+  "contexts" : "",
+  "files" : [ {
+    "filename" : "sql_code/archive/ddl/table_t1_10_09_2019_13_10.sql",
+    "rollbackFile" : null,
+    "type" : "ddl",
+    "action" : null
+  } ]
+} ]
