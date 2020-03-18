@@ -1,0 +1,12 @@
+[ {
+  "author" : "riaki",
+  "comment" : "",
+  "labels" : "l1",
+  "contexts" : "",
+  "files" : [ {
+    "filename" : "sql_code/ddl/table_01_06_2020_17_29.sql",
+    "rollbackFile" : null,
+    "type" : "ddl",
+    "action" : null
+  } ]
+} ]

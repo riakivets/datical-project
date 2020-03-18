@@ -1,0 +1,12 @@
+[ {
+  "author" : "riakiiiiiiiiiiiiiiii",
+  "comment" : "",
+  "labels" : "l1",
+  "contexts" : "",
+  "files" : [ {
+    "filename" : "sql_code/archive/ddl/createTable-t9.sql",
+    "rollbackFile" : null,
+    "type" : "ddl",
+    "action" : null
+  } ]
+} ]
