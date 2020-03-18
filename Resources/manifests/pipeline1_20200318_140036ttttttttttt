@@ -1,0 +1,12 @@
+[ {
+  "author" : "riakiaAAAAAAAAAAAAA",
+  "comment" : "",
+  "labels" : "l1",
+  "contexts" : "",
+  "files" : [ {
+    "filename" : "sql_code/archive/ddl/createTableSomeName75.sql",
+    "rollbackFile" : null,
+    "type" : "ddl",
+    "action" : null
+  } ]
+} ]
